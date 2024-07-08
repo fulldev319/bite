@@ -1,0 +1,49 @@
+.container {
+  padding: 16px 32px;
+}
+
+.container h1 {
+  text-transform: capitalize;
+}
+
+.tabs {
+  margin-bottom: 20px;
+}
+
+.tabs button {
+  position: relative;
+  margin-right: 10px;
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.tabs button:hover {
+  background-color: #f0f0f0;
+}
+
+.item-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.item {
+  width: calc(33.33% - 20px);
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.tabs .badge {
+  position: absolute;
+  background-color: red;
+  top: 0;
+  right: 0;
+  transform: translate(50%, -50%);
+  color: white;
+  padding: 5px 8px;
+  border-radius: 50%;
+}
